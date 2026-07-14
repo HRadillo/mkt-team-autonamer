@@ -47,7 +47,7 @@ const VISUAL_THEME_OPTIONS_STATIC = [...VISUAL_THEME_OPTIONS_BASE, 'PRE'].sort()
 
 const SOUND_OPTIONS = ['SPE', 'VO', 'TRND', 'ASMR', 'FX'];
 const ETHNICITY_OPTIONS = ['LTONE', 'DTONE', 'TTONE'];
-const PRODUCT_CODE_OPTIONS = ['ACF', 'ACN', 'ASU', 'BPK', 'CNC', 'CSU', 'ECZ', 'FOU', 'HYP', 'NEC', 'TIT', 'TWL'];
+const PRODUCT_CODE_OPTIONS = ['ACF', 'ACN', 'ASU', 'BPK', 'CNC', 'CSU', 'ECZ', 'FOU', 'HSU', 'HYP', 'NEC', 'TIT', 'TWL'];
 
 // Test Variables (Ad Set Level)
 const TEST_VAR_OPTIONS = [
