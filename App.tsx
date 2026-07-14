@@ -13,7 +13,7 @@ import { CopyRow } from './components/CopyRow';
 // --- CONSTANTS ---
 
 const ACCOUNT_OPTIONS = ['BM1', 'BM2', 'H1', 'H2', 'BMX'];
-const PRODUCT_GEO_OPTIONS = ['ACF-US', 'ACN-US', 'ASU-US', 'CNC-US', 'CSU-US', 'ECZ-US', 'FOU-US', 'HYP-US', 'NEC-US', 'TWL-US'];
+const PRODUCT_GEO_OPTIONS = ['ACF-US', 'ACN-US', 'ASU-US', 'CNC-US', 'CSU-US', 'ECZ-US', 'FOU-US', 'HSU-US', 'HYP-US', 'NEC-US', 'TWL-US'];
 const TRIAL_OPTIONS = ['TRIAL', 'BUY', 'TBYB'];
 
 const FOCUS_OPTIONS = [
