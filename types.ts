@@ -34,6 +34,7 @@ export interface FormData {
   // --- Ad Level Specifics (The "Differences") ---
   variant: string;     // a, b, c...
   adTextCode: string;  // h2p2
+  landingPage?: string;
 
   // --- Video Ad Level Details ---
   seq: string;

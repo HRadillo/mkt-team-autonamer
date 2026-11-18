@@ -137,6 +137,7 @@ export const generateVideoOutputs = (data: FormData): GeneratedOutputs => {
     data.productCode,
     projectCodeVariant,
     data.adTextCode,
+    data.landingPage,
   ]);
 
   const adLevel = substituteCommaSpaceToDash(adLevelRaw);
@@ -224,6 +225,7 @@ export const generateStaticOutputs = (data: FormData): GeneratedOutputs => {
     data.productCode,
     projectCodeVariant,
     data.adTextCode,
+    data.landingPage,
   ]);
 
   const adLevel = substituteCommaSpaceToDash(adLevelRaw);

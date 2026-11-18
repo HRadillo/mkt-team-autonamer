@@ -13,7 +13,10 @@ import { CopyRow } from './components/CopyRow';
 // --- CONSTANTS ---
 
 const ACCOUNT_OPTIONS = ['BM1', 'BM2', 'H1', 'H2', 'BMX'];
-const PRODUCT_GEO_OPTIONS = ['ACF-US', 'ACN-US', 'ASU-US', 'CNC-US', 'CSU-US', 'ECZ-US', 'FOU-US', 'HSU-US', 'HYP-US', 'NEC-US', 'TWL-US'];
+const PRODUCT_GEO_OPTIONS = [
+  'ACF-US', 'ACN-US', 'ASC-US', 'ASU-US', 'BPG-US', 'CNC-US', 'CSU-US', 'ECZ-US',
+  'FOU-US', 'GLU-US', 'HSU-US', 'HYP-US', 'KPL-US', 'NAD-US', 'NEC-US', 'SER-US', 'TWL-US',
+];
 const TRIAL_OPTIONS = ['TRIAL', 'BUY', 'TBYB'];
 
 const FOCUS_OPTIONS = [
@@ -47,7 +50,10 @@ const VISUAL_THEME_OPTIONS_STATIC = [...VISUAL_THEME_OPTIONS_BASE, 'PRE'].sort()
 
 const SOUND_OPTIONS = ['SPE', 'VO', 'TRND', 'ASMR', 'FX'];
 const ETHNICITY_OPTIONS = ['LTONE', 'DTONE', 'TTONE'];
-const PRODUCT_CODE_OPTIONS = ['ACF', 'ACN', 'ASU', 'BPK', 'CNC', 'CSU', 'ECZ', 'FOU', 'HSU', 'HYP', 'NEC', 'TIT', 'TWL'];
+const PRODUCT_CODE_OPTIONS = [
+  'ACF', 'ACN', 'ASC', 'ASU', 'BPG', 'BPK', 'CNC', 'CSU', 'ECZ', 'FOU',
+  'GLU', 'HSU', 'HYP', 'KPL', 'NAD', 'NEC', 'SER', 'TIT', 'TWL',
+];
 
 // Test Variables (Ad Set Level)
 const TEST_VAR_OPTIONS = [
@@ -78,6 +84,7 @@ const INITIAL_VIDEO_STATE: FormData = {
   ncon: false,
   variant: '',
   adTextCode: '',
+  landingPage: '',
   seq: '',
   title: '',
   intro: '',
@@ -577,6 +584,9 @@ function App() {
                         </div>
                         <div className="col-span-2">
                            <InputField label="Ad Text" value={formData.adTextCode} onChange={(v) => updateField('adTextCode', v)} placeholder="h2p2" />
+                        </div>
+                        <div className="col-span-12">
+                           <InputField label="LANDING PAGE" value={formData.landingPage ?? ''} onChange={(v) => updateField('landingPage', v)} placeholder="lp123" />
                         </div>
                      </div>
                      <CheckboxField label="Include NCON (Non-Qualified Concept)" checked={formData.ncon} onChange={(v) => updateField('ncon', v)} />
