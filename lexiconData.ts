@@ -218,6 +218,7 @@ export const CONCEPT_CLUSTER: LexiconItem[] = [
   { code: 'PERS', title: 'Personalization' },
   { code: 'PGMT', title: 'Pigmentation' },
   { code: 'PIH', title: 'PIH' },
+  { code: 'RECOV', title: 'Recovery' },
   { code: 'RTN', title: 'Routine' },
   { code: 'SAG', title: 'Saggy' },
   { code: 'SHD', title: 'Shade' },

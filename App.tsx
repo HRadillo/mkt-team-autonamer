@@ -23,7 +23,7 @@ const FOCUS_OPTIONS = [
   'ADLT', 'COMP', 'CONG', 'CONV', 'CVRG', 'CYST', 'DGST', 'EFCY', 'EMTN', 'FRML', 'HAIR', 'HRMN', 
   'INFL', 'MATR', 'MLSM', 'OFFR', 'PERS', 'PGMT', 'PIH', 'PRNT', 'PRVTN', 'RTN', 'SAG', 'SHD', 
   'SKIN', 'SKNC', 'SUND', 'TRANSF', 'TXTR', 'UNCMPL', 'USG', 'WRNKL',
-  'COGN', 'ENRG', 'HLAG', 'INJ'
+  'COGN', 'ENRG', 'HLAG', 'INJ', 'RECOV'
 ].sort();
 
 // --- CONTEXT-AWARE OPTIONS ---
