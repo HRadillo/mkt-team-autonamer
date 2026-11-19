@@ -221,6 +221,7 @@ export const CONCEPT_CLUSTER: LexiconItem[] = [
   { code: 'RTN', title: 'Routine' },
   { code: 'SAG', title: 'Saggy' },
   { code: 'SHD', title: 'Shade' },
+  { code: 'SKIN', title: 'Skin' },
   { code: 'SKNC', title: 'Skincare' },
   { code: 'SUND', title: 'Sun-damage' },
   { code: 'TRANSF', title: 'Skin transformation' },
