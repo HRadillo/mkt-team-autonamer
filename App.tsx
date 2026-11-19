@@ -22,7 +22,8 @@ const TRIAL_OPTIONS = ['TRIAL', 'BUY', 'TBYB'];
 const FOCUS_OPTIONS = [
   'ADLT', 'COMP', 'CONG', 'CONV', 'CVRG', 'CYST', 'DGST', 'EFCY', 'EMTN', 'FRML', 'HAIR', 'HRMN', 
   'INFL', 'MATR', 'MLSM', 'OFFR', 'PERS', 'PGMT', 'PIH', 'PRNT', 'PRVTN', 'RTN', 'SAG', 'SHD', 
-  'SKNC', 'SUND', 'TRANSF', 'TXTR', 'UNCMPL', 'USG', 'WRNKL'
+  'SKNC', 'SUND', 'TRANSF', 'TXTR', 'UNCMPL', 'USG', 'WRNKL',
+  'COGN', 'ENRG', 'HLAG', 'INJ'
 ].sort();
 
 // --- CONTEXT-AWARE OPTIONS ---

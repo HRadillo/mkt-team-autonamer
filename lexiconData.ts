@@ -196,6 +196,7 @@ export const CONCEPT_THEME_GUIDES: ConceptThemeGuide[] = [
 
 export const CONCEPT_CLUSTER: LexiconItem[] = [
   { code: 'ADLT', title: 'Adult' },
+  { code: 'COGN', title: 'Cognition' },
   { code: 'COMP', title: 'Comparison' },
   { code: 'CONG', title: 'Congestion' },
   { code: 'CONV', title: 'Convenience' },
@@ -204,10 +205,13 @@ export const CONCEPT_CLUSTER: LexiconItem[] = [
   { code: 'DGST', title: 'Digestion' },
   { code: 'EFCY', title: 'Efficacy' },
   { code: 'EMTN', title: 'Emotion' },
+  { code: 'ENRG', title: 'Energy' },
   { code: 'FRML', title: 'Formula' },
   { code: 'HAIR', title: 'Hair' },
+  { code: 'HLAG', title: 'Healthy-aging' },
   { code: 'HRMN', title: 'Hormonal' },
   { code: 'INFL', title: 'Inflammation' },
+  { code: 'INJ', title: 'Injectables' },
   { code: 'MATR', title: 'Mature' },
   { code: 'MLSM', title: 'Melasma' },
   { code: 'PRNT', title: 'Parent' },
