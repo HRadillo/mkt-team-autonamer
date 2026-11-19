@@ -211,7 +211,7 @@ export const CONCEPT_CLUSTER: LexiconItem[] = [
   { code: 'HLAG', title: 'Healthy-aging' },
   { code: 'HRMN', title: 'Hormonal' },
   { code: 'INFL', title: 'Inflammation' },
-  { code: 'INJ', title: 'Injectables' },
+  { code: 'INJ', title: 'Injection / Injectables' },
   { code: 'MATR', title: 'Mature' },
   { code: 'MLSM', title: 'Melasma' },
   { code: 'PRNT', title: 'Parent' },
